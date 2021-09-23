@@ -22,4 +22,4 @@ console.log(reindeers.replace(/\s/g, "_"));
 // 8
 console.log(Math.sqrt(2));
 // 9
-let newRandomNumber = Math.ceil(Math.random() * (24 - 7) + 6);
+let newRandomNumber = Math.floor(Math.random() * (24 - 7) + 7);
