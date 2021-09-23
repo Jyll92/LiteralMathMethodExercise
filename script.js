@@ -11,7 +11,8 @@ let skullBones = `I don't have a skull${dotDotDot}or bones.`
 // 4
 console.log(Math.PI);
 // 5
-let randomNumber = Math.ceil(Math.random() * 3);
+// let randomNumber = Math.ceil(Math.random() * 3);
+let randomNumber = Math.floor(Math.random() * 3) + 1;
 
 // Bonus
 // 6
